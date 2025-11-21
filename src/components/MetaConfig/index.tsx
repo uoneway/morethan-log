@@ -1,6 +1,5 @@
 import { CONFIG } from "site.config"
 import Head from "next/head"
-import Script from "next/script"
 
 export type MetaConfigProps = {
   title: string
@@ -39,12 +38,6 @@ const MetaConfig: React.FC<MetaConfigProps> = (props) => {
           </>
         )}
       </Head>
-      <Script
-        async
-        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6070999186513755"
-        crossOrigin="anonymous"
-        strategy="afterInteractive"
-      />
     </>
   )
 }
