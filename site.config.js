@@ -1,34 +1,30 @@
 const CONFIG = {
   // profile setting (required)
   profile: {
-    name: "jung-geun",
+    name: "Hangil Kim (Link)",
     image: "/avatar.svg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
-    role: "system developer",
-    bio: "I develop everything using everyting.",
-    email: "pieroot@konkuk.ac.kr",
-    linkedin: "pieroot",
-    github: "jung-geun",
-    instagram: "__jung__02",
+    role: "AI engineer",
+    bio: "",
+    email: "",
+    linkedin: "hangil-kim-761279107",
+    github: "uoneway",
+    instagram: "",
   },
   projects: [
-    {
-      name: `NFD2NFC`,
-      href: "https://github.com/jung-geun/NFD2NFC",
-    },
-    {
-      name: `animal-pose-classification`,
-      href: "https://github.com/jung-geun/animal-pose-classification",
-    },
+    // {
+    //   name: `NFD2NFC`,
+    //   href: "https://github.com/jung-geun/NFD2NFC",
+    // },
   ],
   // blog setting (required)
   blog: {
-    title: "pieroot log",
-    description: "welcome to pieroot's logs!",
+    title: "Hangil log",
+    description: "welcome to Hangil's blog!",
     scheme: "system", // 'light' | 'dark' | 'system'
   },
 
   // CONFIG configration (required)
-  link: "https://blog.pieroot.xyz",
+  link: "https://linkim.vercel.app",
   since: 2025, // If leave this empty, current year will be used.
   lang: "ko-kr", // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES', 'ko-KR']
   ogImageGenerateURL: "https://og-image-korean.vercel.app", // The link to generate OG image, don't end with a slash
